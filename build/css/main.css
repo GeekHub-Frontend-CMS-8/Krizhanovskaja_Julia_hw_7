@@ -1,0 +1,135 @@
+.button {
+  background-color: #8d81ac;
+  color: #d4d4d4;
+  border: 1px solid #8d81ac;
+  width: 150px;
+  height: 48px;
+  font: 700 17px/15px Montserrat;
+  border-radius: 25px; }
+
+li {
+  list-style-type: none; }
+
+#header {
+  background: #ffffff; }
+  #header .navbar-nav .nav-link {
+    margin-right: 30px;
+    color: #635c73 !important;
+    font: 700 16px/1 Montserrat; }
+
+#welcom {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  padding: 100px;
+  background: url("../img/bg1.jpg") 50% 50% no-repeat;
+  background-size: cover; }
+  #welcom h1 {
+    margin-bottom: 50px;
+    font: 700 82px/21px Montserrat; }
+  #welcom p {
+    font: 400 30px/1 Lato;
+    color: #8d81ac; }
+  #welcom .p {
+    font: 400 16px/21px Montserrat;
+    color: #848e97;
+    text-transform: uppercase; }
+  #welcom .btn-1 {
+    position: absolute;
+    bottom: -70px;
+    background-color: transparent;
+    border: none; }
+    #welcom .btn-1 .title {
+      font: 700 82px/20.45 px Montserrat; }
+
+#features {
+  padding-top: 80px;
+  background: #f4f4f4; }
+  #features h3 {
+    color: #8d81ac;
+    font: 700 48px/1 Montserrat; }
+  #features h5 {
+    color: #323232;
+    font: 400 16px/21px Montserrat; }
+  #features p {
+    font: 400 14px/21px Montserrat;
+    color: #848e97; }
+
+#info_1 {
+  padding: 70px 0;
+  margin: 70px 0; }
+  #info_1 h2 {
+    margin-bottom: 30px;
+    color: #635c73;
+    font: 700 54px/1 Montserrat;
+    text-transform: uppercase; }
+  #info_1 p {
+    margin-bottom: 30px;
+    font: 400 21px/32px Source Sans Pro;
+    color: #323232;
+    opacity: 0.8; }
+
+#social {
+  padding: 100px;
+  background: transparent; }
+  #social .heading {
+    font: 700 24px/32px Montserrat;
+    color: #635c73; }
+  #social .violet-text {
+    font: 400 16px/32px Montserrat;
+    color: #8d81ac;
+    line-height: 32px; }
+  #social .grey-text {
+    font: 400 16px/32px Montserrat;
+    color: #848e97; }
+  #social .social-btn {
+    margin-top: 100px; }
+  #social .dark-blue {
+    background-color: #3b5998; }
+
+#info2 {
+  padding: 100px;
+  background-image: url("../img/img-decor-02.jpg");
+  background-size: cover; }
+  #info2 h2 {
+    padding: 30px;
+    font: 700 48px/1 Montserrat;
+    color: #8d81ac; }
+  #info2 div {
+    margin-top: 30px;
+    font: 400 16px/24px "Source Sans Pro - Bold It";
+    color: #8d81ac; }
+
+#info3 {
+  background-image: url("../img/img-decor-03.jpg");
+  background-size: cover; }
+  #info3 .card {
+    background-color: #d4d4d4; }
+  #info3 .card3 {
+    background-color: #000000; }
+
+#info4 {
+  padding: 55px;
+  background-color: #f4f4f4; }
+  #info4 h2 {
+    font: 700 30px/60px Montserrat;
+    color: #635c73; }
+
+#links {
+  padding: 70px; }
+  #links .heading-link {
+    margin-bottom: 50px;
+    font: 700 28px/32px Montserrat;
+    color: #d3d1da; }
+  #links h5 {
+    font: 400 16px/26px Montserrat;
+    color: #323232; }
+  #links p {
+    font: 400 13px/21px Montserrat;
+    color: #848e97; }
+    #links p .heading-link-1 {
+      color: #8d81ac;
+      font: 400 16px/26px Montserrat; }
+  #links .button-link {
+    font: 400 14px/26px Montserrat;
+    color: #8d81ac; }
