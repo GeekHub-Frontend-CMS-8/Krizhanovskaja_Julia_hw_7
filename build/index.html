@@ -24,17 +24,20 @@
 <body>
     <header id="header">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">
+            <nav class="navbar navbar-expand-md navbar-light px-lg-5">
+                <a class="navbar-brand order-lg-1" href="#">
                     <img src="img/logo.png" alt="logo">
                 </a>
-                <button class="btn btn-primary button order-lg-3 text-white" type="submit">Buy Now</button>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-primary button btn-sm order-lg-3 btn-text" type="submit">Buy Now</button>
+                <button class="navbar-toggler collapsed" type="button"
+                        data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <div class="justify-content-end collapse navbar-collapse col-lg-9 order-lg-2 px-0" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
@@ -65,9 +68,12 @@
                         v. 2.8 For Mac and Windows
                     </p>
                 </div>
-            <button type="button" class="btn btn-primary btn-lg btn-block btn-1 text-white">
-                <img src="img/button.png" alt="button">
-            </button>
+                <button type="button" class="btn btn-primary btn-lg btn-1 text-white">
+                    Download For Free Now
+                </button>
+                <p class="under-btn-1">
+                    Unlimited 30-Days Trial Period
+                </p>
             </div>
         </div>
     </section>
@@ -93,7 +99,7 @@
     </section>
     <section id="features">
         <div class="container">
-            <h3 class="text-center">
+            <h3 class="d-flex justify-content-end">
                 Here is what you get
             </h3>
             <div class="row pt-5 align-items-center">
@@ -154,7 +160,7 @@
                             </div>
                         </div>
                 </div>
-                <div class="col-12 col-xl-6 d-none d-md-block align-self-end">
+                <div class="col-12 col-xl-6 d-md-block align-self-end">
                     <img src="img/img-01.png">
                 </div>
             </div>
@@ -168,7 +174,7 @@
                     <div class="carousel-item active">
                         <div>
                             <div class="d-flex justify-content-center">
-                                <div>
+                                <div class="img-author">
                                     <img class="d-block" src="img/author.jpg"
                                          alt="Third slide">
                                 </div>
@@ -193,7 +199,7 @@
                     <div class="carousel-item">
                         <div>
                             <div class="d-flex justify-content-center">
-                                <div>
+                                <div class="img-author">
                                     <img class="d-block" src="img/author.jpg"
                                          alt="Third slide">
                                 </div>
@@ -217,7 +223,7 @@
                     <div class="carousel-item">
                         <div>
                             <div class="d-flex justify-content-center">
-                                <div>
+                                <div class="img-author">
                                     <img class="d-block" src="img/author.jpg"
                                          alt="Third slide">
                                 </div>
@@ -248,20 +254,46 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <div class="social-btn d-flex justify-content-between">
-                <a href="#" class="btn btn-light btn-lg disabled text-dark" role="button" aria-disabled="true">
-                    <i class="fab fa-github">GitHub</i>
-                </a>
-                <a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">
-                    <i class="fab fa-twitter">
-                        Twitter
-                    </i>
-                </a>
-                <a href="#" class="btn btn-secondary btn-lg disabled dark-blue" role="button" aria-disabled="true">
-                    <i class="fab fa-facebook-f">
-                        Facebook
-                    </i>
-                </a>
+            <div class="flex-wrap social-btn text-center d-flex justify-content-center">
+                <div class="d-flex flex-column">
+                    <a href="#" class="btn btn-secondary btn-lg disabled text-dark btn-soc" role="button" aria-disabled="true">
+                        <i class="fab fa-github">
+                        <span>
+                            GitHub
+                        </span>
+                        </i>
+                    </a>
+                    <p class="text-soc">
+                        7 352 Followers
+                    </p>
+                </div>
+
+                <div class="d-flex flex-column">
+                    <a href="#" class="btn btn-primary btn-lg disabled btn-soc" role="button" aria-disabled="true">
+                        <i class="fab fa-twitter">
+                        <span>
+                            Twitter
+                        </span>
+                        </i>
+                    </a>
+                    <p class="text-soc">
+                        136 312 Followers
+                    </p>
+                </div>
+
+                <div class="d-flex flex-column">
+                    <a href="#" class="btn btn-secondary btn-lg disabled dark-blue btn-soc" role="button" aria-disabled="true">
+                        <i class="fab fa-facebook-f">
+                       <span>
+                           Facebook
+                       </span>
+                        </i>
+                    </a>
+                    <p class="text-soc">
+                        218 092 Subscribers
+                    </p>
+                </div>
+
             </div>
 
         </div>
@@ -270,7 +302,7 @@
     </section>
     <section id="info2">
         <div class="container">
-            <h2 class="text-white text-center">
+            <h2 class="heading-section text-center">
                 People Are Talking About Fork
             </h2>
             <div class="row">
@@ -327,74 +359,72 @@
     </section>
     <section id="info3">
         <div class="container">
+            <h2 class="heading-section text-center">
+                Fork Subscription Pricing
+            </h2>
             <div class="row">
-                <div class="col-12">
-                    <h2 class="text-white">
-                        Fork Subscription Pricing
-                    </h2>
-                    <div class="card-group">
-                        <div class="card text-center mr-lg-3">
-                            <div class="card-header text-white">STUDENTS</div>
+                        <div class="card text-center col-12 col-lg-3">
+                            <div class="card-header">STUDENTS</div>
                             <div class="card-body">
-                                <h5 class="card-title text-white">$29</h5>
+                                <h5 class="card-title">$29</h5>
                                 <p class="card-text term">PER MONTH</p>
-                                <p class="card-text license text-white">Personale License</p>
-                                <a href="#" class="btn btn-secondary">PURCHASE</a>
+                                <div class="border-price"></div>
+                                <p class="card-text license">Personale License</p>
+                                <a href="#" class="btn">PURCHASE</a>
                             </div>
                         </div>
-                        <div class="card text-center mr-lg-3">
-                            <div class="card-header text-white">PROFESSIONAL</div>
+                        <div class="card text-center col-12 col-lg-3">
+                            <div class="card-header">PROFESSIONAL</div>
                             <div class="card-body">
-                                <h5 class="card-title text-white">$59</h5>
+                                <h5 class="card-title">$59</h5>
                                 <p class="card-text term">PER MONTH</p>
-                                <p class="card-text license text-white">Professional License
+                                <div class="border-price"></div>
+                                <p class="card-text license">Professional License
                                     Email Support</p>
-                                <a href="#" class="btn btn-secondary">PURCHASE</a>
+                                <a href="#" class="btn btn-secondary ">PURCHASE</a>
                             </div>
                         </div>
-                        <div class="card card3 text-center mr-lg-3">
-                            <div class="card-header text-white">AGGENCY</div>
+                        <div class="card text-center col-12 col-lg-3">
+                            <div class="card-header card-header-3">AGGENCY</div>
                             <div class="card-body">
-                                <h5 class="card-title text-white">$99</h5>
+                                <h5 class="card-title">$99</h5>
                                 <p class="card-text term">PER MONTH</p>
-                                <p class="card-text license text-white">1-12 Team Members
+                                <div class="border-price"></div>
+                                <p class="card-text license">1-12 Team Members
                                     Phone Support</p>
                                 <a href="#" class="btn btn-secondary">PURCHASE</a>
                             </div>
                         </div>
-                        <div class="card text-center mr-lg-3">
-                            <div class="card-header text-white">ENTERPRISE</div>
+                        <div class="card text-center col-12 col-lg-3 ">
+                            <div class="card-header">ENTERPRISE</div>
                             <div class="card-body">
-                                <h5 class="card-title text-white">$159</h5>
+                                <h5 class="card-title">$159</h5>
                                 <p class="card-text term">PER MONTH</p>
-                                <p class="card-text license text-white">Unlimited Team Members
+                                <div class="border-price"></div>
+                                <p class="card-text license">Unlimited Team Members
                                     24/ 7 Phone Support</p>
                                 <a href="#" class="btn btn-secondary">PURCHASE</a>
                             </div>
                         </div>
-                    </div>
-                    <p class="text-white">
-                        Duis lobortis arcu sed arcu tincidunt feugiat.
-                        Nulla nisi mauris, facilisis vitae aliquet id,
-                        imperdiet quis nibh. Donec eget elit eu libero
-                        tincidunt consequat nec elementum orci. Cum sociis
-                        natoque penatibus et magnis dis parturient montes,
-                        nascetur ridiculus mus.
-                    </p>
-                </div>
+
             </div>
+            <p class="info3-text text-center">
+                Duis lobortis arcu sed arcu tincidunt feugiat.
+                Nulla nisi mauris, facilisis vitae aliquet id,
+                imperdiet quis nibh. Donec eget elit eu libero
+                tincidunt consequat nec elementum orci. Cum sociis
+                natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus.
+            </p>
         </div>
     </section>
     <section id="info4">
         <div class="container">
             <div class="row">
-                <div class="d-flex justify-content-between">
-                    <div class="col-12 col-xl-12">
+                <div class="d-flex flex-wrap">
                         <h2 class="font-weight-bold text-body">
                             Subscribe To Our Newsletter
                         </h2>
-                    </div>
-                    <div class="col-12 col-xl-12">
                         <form class="form-inline">
                             <div class="form-group mx-sm-3 mb-2">
                                 <label hidden="" for="input-email" class="sr-only">Email</label>
@@ -402,7 +432,6 @@
                             </div>
                             <button type="submit" class="btn btn-primary mb-2 button text-white">SUBSCRIBE</button>
                         </form>
-                    </div>
                 </div>
                 </div>
             </div>
@@ -462,7 +491,7 @@
                             Popular Extensions
                         </h3>
                         <li>
-                            <h5 class="heading-link-1">
+                            <h5 class="heading-link-1 violet">
                                 Custom Themes 1.1
                             </h5>
                             <p>
@@ -471,7 +500,7 @@
                             </p>
                         </li>
                         <li>
-                            <h5 class="heading-link-1">
+                            <h5 class="heading-link-1 violet">
                                 Filter Forge
                             </h5>
                             <p>
@@ -479,7 +508,7 @@
                             </p>
                         </li>
                         <li>
-                            <h5 class="heading-link-1">
+                            <h5 class="heading-link-1 violet">
                                 WebZap
                             </h5>
                             <p>
@@ -490,7 +519,7 @@
                             </p>
                         </li>
                         <li>
-                            <h5 class="heading-link-1">
+                            <h5 class="heading-link-1 violet">
                                 Renamy
                             </h5>
                             <p>
@@ -509,7 +538,7 @@
                             New From the Blog
                         </h3>
                         <li>
-                            <h5 class="heading-link-1">
+                            <h5 class="heading-link-1 violet">
                                 Morbi imperdiet, leo in interdum pretium.
                             </h5>
                             <p>
@@ -517,7 +546,7 @@
                             </p>
                         </li>
                         <li>
-                            <h5 class="heading-link-1">
+                            <h5 class="heading-link-1 violet">
                                 Donec orci ante, porta vel nulla quis, aliquet
                                 hendrerit leo.
                             </h5>
@@ -526,7 +555,7 @@
                             </p>
                         </li>
                         <li>
-                            <h5 class="heading-link-1">
+                            <h5 class="heading-link-1 violet">
                                 Suspendisse egestas vulputate luctus.
                             </h5>
                             <p>
@@ -534,7 +563,7 @@
                             </p>
                         </li>
                         <li>
-                            <h5 class="heading-link-1">
+                            <h5 class="heading-link-1 violet">
                                 Quisque varius ante lorem, eget pretium purus
                                 hendrerit a egestas.
                             </h5>
@@ -543,7 +572,7 @@
                             </p>
                         </li>
                         <li>
-                            <h5 class="heading-link-1">
+                            <h5 class="heading-link-1 violet">
                                 Phasellus in augue risus.
                             </h5>
                             <p>
@@ -570,10 +599,10 @@
                         liberavisse id cum no quo.
                     </p>
                 </div>
-                <div class="col-12 col-xl-3">
-                    <h6 class="text-dark">
+                <div class="col-12 col-xl-3 ">
+                    <h5 class="text-dark">
                         Navigation
-                    </h6>
+                    </h5>
                     <ul>
                         <li>
                             Home
@@ -593,9 +622,9 @@
                     </ul>
                 </div>
                 <div class="col-12 col-xl-3">
-                    <p class="font-weight-bold">
+                    <h6 class="number">
                         347 567 78 90
-                    </p>
+                    </h6>
                     <p>
                         AVAILABLE FROM 12PM - 18PM
                     </p>
@@ -608,9 +637,9 @@
                     </p>
                 </div>
                 <div class="col-12 col-xl-3">
-                    <h6 class="text-dark">
+                    <h5 class="text-dark">
                         Info
-                    </h6>
+                    </h5>
                     <p>
                         Wisi enim ad minim veniam, quis nostrud
                         exerci tation ullamcorper suscipit lobortis
